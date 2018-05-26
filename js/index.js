@@ -36,9 +36,14 @@ $(document).ready(function(){
             scrollTop: $('#div4').offset().top -0
         }, 500);
 	});
-	$( ".seta" ).click(function() {
+	$( "#seta1" ).click(function() {
 	  $('html, body').animate({
             scrollTop: $('#div2').offset().top -0
+        }, 1000);
+	});
+	$( "#seta2" ).click(function() {
+	  $('html, body').animate({
+            scrollTop: $('#div3').offset().top -0
         }, 1000);
 	});
 
@@ -54,6 +59,7 @@ $(window).scroll(function () {
             if (bottom_of_window > bottom_of_object) {
                 $( ".typewriter-text" ).addClass("line-1");
                 $( ".div-espec" ).css({"opacity":"1"});
+                $( "#seta2" ).css({"opacity":"1"});
             }
         });
     });
