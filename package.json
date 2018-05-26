@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarWilliam/portfolio.git"
+  },
+  "author": "William Cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarWilliam/portfolio/issues"
+  },
+  "homepage": "https://github.com/CesarWilliam/portfolio#readme",
+  "dependencies": {
+    "aos": "^2.3.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-jquery": "^1.1.2",
+    "gulp-sass": "^4.0.1"
+  }
+}
