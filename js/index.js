@@ -4,7 +4,7 @@
 $(document).ready(function(){
 	$( ".botao-menu" ).click(function() {
 	  $( this ).toggleClass( "change-botao-menu" );
-	  $( ".menu" ).toggleClass( "change-menu" );
+	  $( ".menu" ).toggle("slow");
 	});
 
 	$( ".list-menu1" ).click(function() {
@@ -63,19 +63,19 @@ $.fn.isInViewport = function() {
 
 $(window).on('resize scroll', function() {
     if ($(".div1").isInViewport()) {
-    	$( ".change-menu ul li" ).removeClass( "click-li" );
+    	$( ".menu ul li" ).removeClass( "click-li" );
 	  	$( ".list-menu1" ).addClass( "click-li" );
     }
     if ($(".div2").isInViewport()) {
-    	$( ".change-menu ul li" ).removeClass( "click-li" );
+    	$( ".menu ul li" ).removeClass( "click-li" );
 	  	$( ".list-menu2" ).addClass( "click-li" );
     }
     if ($(".div3").isInViewport()) {
-    	$( ".change-menu ul li" ).removeClass( "click-li" );
+    	$( ".menu ul li" ).removeClass( "click-li" );
 	  	$( ".list-menu3" ).addClass( "click-li" );
     }
     if ($(".div4").isInViewport()) {
-    	$( ".change-menu ul li" ).removeClass( "click-li" );
+    	$( ".menu ul li" ).removeClass( "click-li" );
 	  	$( ".list-menu4" ).addClass( "click-li" );
     }
 });

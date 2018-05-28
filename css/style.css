@@ -24,11 +24,11 @@ body {
     -o-transition: .4s;
     transition: .4s; }
     .botao-menu span:first-of-type {
-      top: 32%; }
+      top: 30%; }
     .botao-menu span:nth-of-type(2) {
       top: 50%; }
     .botao-menu span:last-of-type {
-      top: 68%; }
+      top: 70%; }
   @media (min-width: 768px) {
     .botao-menu {
       display: none; } }
@@ -41,26 +41,23 @@ body {
   opacity: 0; }
 
 .change-botao-menu span:last-of-type {
-  -webkit-transform: rotate(-45deg) translate(6px, -5px);
-  transform: rotate(-45deg) translate(6px, -5px); }
+  -webkit-transform: rotate(-45deg) translate(7px, -7px);
+  transform: rotate(-45deg) translate(7px, -7px); }
 
 .menu {
   position: fixed;
   right: 5%;
   bottom: 18%;
-  z-index: 10; }
+  z-index: 10;
+  display: none; }
   .menu ul {
     padding-left: 0; }
     .menu ul li {
-      opacity: 0;
+      animation: .4s;
       list-style: none;
       margin-bottom: 25px;
       text-align: right;
-      cursor: pointer;
-      -webkit-transition: .4s;
-      -moz-transition: .4s;
-      -o-transition: .4s;
-      transition: .4s; }
+      cursor: pointer; }
       .menu ul li:after {
         content: '';
         display: inline-block;
@@ -73,44 +70,22 @@ body {
         -moz-transition: .6s;
         -o-transition: .6s;
         transition: .6s; }
-      .menu ul li:first-of-type {
-        -webkit-transition-delay: .6s;
-        -moz-transition-delay: .6s;
-        -o-transition-delay: .6s;
-        transition-delay: .6s; }
-      .menu ul li:nth-of-type(2) {
-        -webkit-transition-delay: .4s;
-        -moz-transition-delay: .4s;
-        -o-transition-delay: .4s;
-        transition-delay: .4s; }
-      .menu ul li:nth-of-type(3) {
-        -webkit-transition-delay: .2s;
-        -moz-transition-delay: .2s;
-        -o-transition-delay: .2s;
-        transition-delay: .2s; }
   @media (min-width: 768px) {
     .menu {
       display: none; } }
-
-.change-menu ul li {
-  opacity: 1; }
 
 .click-li:after {
   background-color: black; }
 
 .div1 {
   height: 100vh; }
-  @media (max-width: 575.98px) {
-    .div1 {
-      height: auto;
-      margin-bottom: 125px; } }
   .div1 .container {
     width: 100%; }
   .div1 .col-sm {
     padding: 250px 0; }
     @media (max-width: 575.98px) {
       .div1 .col-sm {
-        padding: 200px 0; } }
+        padding: 150px 0; } }
     .div1 .col-sm h1 {
       font-size: 56px; }
       @media (min-width: 768px) and (max-width: 991.98px) {
