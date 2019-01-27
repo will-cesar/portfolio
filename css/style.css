@@ -301,6 +301,12 @@ body {
       background-image: url("../img/spread-print.png"); }
     .div3 .col-lg-4:nth-of-type(9) .img {
       background-image: url("../img/lemonator-print.png"); }
+    .div3 .col-lg-4:nth-of-type(10) .img {
+      background-image: url("../img/kabrita.png"); }
+    .div3 .col-lg-4:nth-of-type(11) .img {
+      background-image: url("../img/mother.png"); }
+    .div3 .col-lg-4:nth-of-type(12) .img {
+      background-image: url("../img/vegmag.png"); }
 
 .div4 {
   margin-bottom: 0;
