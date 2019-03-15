@@ -268,9 +268,14 @@ body {
         transition: .4s;
         opacity: 0;
         padding: 25px; }
+        .div3 .col-lg-4 .img .mask h3 {
+          color: #fff;
+          font-size: 18px;
+          margin-bottom: 10px; }
         .div3 .col-lg-4 .img .mask p {
           color: #fff;
-          margin-bottom: 5px; }
+          margin-bottom: 0px;
+          font-size: 14px; }
           .div3 .col-lg-4 .img .mask p:last-of-type {
             text-decoration: underline; }
         .div3 .col-lg-4 .img .mask ul {
@@ -279,40 +284,11 @@ body {
             display: inline;
             list-style: none;
             margin-right: 5px;
-            color: #cccccc; }
+            color: #cccccc;
+            font-size: 14px; }
       .div3 .col-lg-4 .img:hover .mask {
         height: 100%;
         opacity: 1; }
-    .div3 .col-lg-4:first-of-type .img {
-      background-image: url("../img/spread-print.png"); }
-    .div3 .col-lg-4:nth-of-type(2) .img {
-      background-image: url("../img/asparty-print.png"); }
-    .div3 .col-lg-4:nth-of-type(3) .img {
-      background-image: url("../img/vegmag.png"); }
-    .div3 .col-lg-4:nth-of-type(4) .img {
-      background-image: url("../img/gessaude-print.png"); }
-    .div3 .col-lg-4:nth-of-type(5) .img {
-      background-image: url("../img/mother.png"); }
-    .div3 .col-lg-4:nth-of-type(6) .img {
-      background-image: url("../img/grano-print.png"); }
-    .div3 .col-lg-4:nth-of-type(7) .img {
-      background-image: url("../img/kabrita.png"); }
-    .div3 .col-lg-4:nth-of-type(8) .img {
-      background-image: url("../img/hasten-print.png"); }
-    .div3 .col-lg-4:nth-of-type(9) .img {
-      background-image: url("../img/mofficer.png"); }
-    .div3 .col-lg-4:nth-of-type(10) .img {
-      background-image: url("../img/front-row.png"); }
-    .div3 .col-lg-4:nth-of-type(11) .img {
-      background-image: url("../img/fuji.png"); }
-    .div3 .col-lg-4:nth-of-type(12) .img {
-      background-image: url("../img/sistran-print.png"); }
-    .div3 .col-lg-4:nth-of-type(13) .img {
-      background-image: url("../img/lemonator-print.png"); }
-    .div3 .col-lg-4:nth-of-type(14) .img {
-      background-image: url("../img/rimo-direto.png"); }
-    .div3 .col-lg-4:nth-of-type(15) .img {
-      background-image: url("../img/feira.png"); }
 
 .div4 {
   margin-bottom: 0;
